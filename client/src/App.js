@@ -24,7 +24,7 @@ const App = () => {
         
       } else {
        
-
+        setAuth(false);
         window.localStorage.setItem("auth", "false");
         navigate("/login");
       }
